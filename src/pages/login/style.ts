@@ -9,7 +9,7 @@ export const style = StyleSheet.create({
         backgroundColor: '#0BD979',
     },
         image:{
-            width: 70,
+            width: 80,
             height: 70,
         },
     boxTop:{

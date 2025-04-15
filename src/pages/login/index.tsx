@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { style } from "./style";
 import Logo from "../../assets/logo.png";
+import CheckBox from "./index.js";
 
 export default function Login(){
     return(
@@ -18,7 +19,8 @@ export default function Login(){
                 {/*Texto de Criar conta*/}
                 <Text style={style.criarConta}>Criar conta</Text>
                 <Text>Começe com 30 dias gratuitos. Cancele a qualquer momento</Text>
-                {/*APIs do google e facebook*/}
+                {/*APIs do google e facebook
+                //? Ainda não aprendido - Front End */}
                 <View style={style.buttonLogin}>
                     <Button title='Google'/>
                     <Button title="Facebook" />
@@ -26,16 +28,17 @@ export default function Login(){
                 {/*Separação das APIs*/}
                 <Text>===================ou===================</Text>
                 {/*Parte para fazer login diretamente
-                //* tem que integrar o back end */}
+                //* tem que integrar com back end */}
                 <TextInput placeholder="E-mail" style={style.inputText} />
                 <TextInput placeholder="Senha" style={style.inputText} />
                 <TextInput placeholder="Confirme sua senha" style={style.inputText} />
                 {/*Esqueseu a senha e check box para manter-se logado
-                //! tem que finalizar */}
+                //! tem que criar outra tela para o "Esqueseu a senha?" - front End */}
                 <Text>Esqueseu a senha?</Text>
-                <Text>Check box</Text>
+                {/*Check Box Lembrar de mim, importado do index.js*/}
+                <CheckBox />
                 {/*Botão para logar o usuario
-                //! tem que finalizar */}
+                //! tem que finalizar - Back End */}
                 <View style={style.boxBotton}>
                     <View style={style.buttonLogin}>
                         <Button title="Login" color={'black'}></Button>
