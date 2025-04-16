@@ -12,7 +12,7 @@ const App = () => {
           onValueChange={setSelection}
           style={styles.checkbox}
         />
-        <Text style={styles.label}>Eu concordo em vender minha alma pro diabo</Text>
+        <Text style={styles.label}>Lembrar de mim</Text>
       </View>
     </View>
   );

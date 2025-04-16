@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { style } from "./style";
 import Logo from "../../assets/logo.png";
-import CheckBox from "./index.js";
+import CheckBox from "./checkBox";
 
 export default function Login(){
     return(

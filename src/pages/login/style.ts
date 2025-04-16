@@ -45,4 +45,27 @@ export const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+
+    cadastrar:{
+        fontFamily: 'Montserrat',
+        fontSize: 40,
+        color: '#09B565',
+        margin: 20,
+        marginTop: 0,
+    },
+    boxBot:{
+        flex: 1,
+        height: 100,
+        width: '100%',
+        backgroundColor: 'white',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderTopStartRadius: 26,
+        borderTopEndRadius: 26,
+    },
+    buttonCadastro:{
+        width: '80%',
+        height: 80,
+        margin: 10,
+    },
 })
