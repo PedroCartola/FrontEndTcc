@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Login from './src/pages/login';
-import Home from './src/pages/home/home';
-import Cadastro from './src/pages/login/cadastro'
+import Login from './src/pages/login/login';
+import Cadastro from './src/pages/login/cadastro';
+import Moradia from './src/pages/moradia/cadastrar';
+import MyStack from './src/global/themes';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Cadastro />
+      <Moradia />
     </View>
   );
 }
